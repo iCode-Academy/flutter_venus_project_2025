@@ -31,11 +31,12 @@ class HelloFlutter extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: EdgeInsets.all(20),
+      color: Colors.lightBlue,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           for (String fruit in fruits)
-            Text('* $fruit', style: TextStyle(fontSize: 30)),
+            Text('This is text', style: TextStyle(fontSize: 30)),
           SizedBox(height: 8),
           Text(
             'List length: ${fruits.length}',
