@@ -21,4 +21,6 @@ class LibraryMember {
   }
 }
 
-void main() {}
+void main() {
+  Book gatsby = Book("Hi", "Hi", 'Hi', isAvailable: false);
+}
